@@ -20,7 +20,9 @@ class _PaginaInicialtate extends State<Paginainicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text("Listado de Articulos")),
+        appBar: AppBar(
+          title: Text("s"),
+        ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
