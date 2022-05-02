@@ -10,7 +10,7 @@ class IzzIApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Ejemplo.Gridview', //pestaña en web
+        title: 'EjemploGridview', //pestaña en web
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.green,
