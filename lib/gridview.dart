@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 class Paginainicial extends StatefulWidget {
   const Paginainicial({Key? key}) : super(key: key);
   @override //
-  _MyHomePageState createState() => _MyHomePageState();
+  _PaginaInicialtate createState() => _PaginaInicialtate();
 } //widget con estado
 
-class _MyHomePageState extends State<Paginainicial> {
+class _PaginaInicialtate extends State<Paginainicial> {
   List<String> images = [
     "assets/images/J.jpg",
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
-    "assets/images/J.jpg",
+    "assets/images/f.jpg",
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
