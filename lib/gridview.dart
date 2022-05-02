@@ -12,7 +12,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
-    "assets/images/izzi.jpg",
+    "assets/images/J.jpg",
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
