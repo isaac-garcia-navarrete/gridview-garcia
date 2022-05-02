@@ -3,18 +3,18 @@ import 'package:flutter/material.dart';
 import 'package:garcia/gridview.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(IzzIApp());
 }
 
-class MyApp extends StatelessWidget {
+class IzzIApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
         title: 'Ejemplo.Gridview', //pestaña en web
+        debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primarySwatch: Colors.green,
         ), //tema de color global
-        home: const MyHomePage());
+        home: const Paginainicial());
   }
 } //widget sin estado
