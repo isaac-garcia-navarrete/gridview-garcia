@@ -12,7 +12,7 @@ class _PaginaInicialtate extends State<Paginainicial> {
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
-    "assets/images/f.jpg",
+    "assets/images/f.jpeg",
     "assets/images/d.jpg",
     "assets/images/f.jpeg",
     "assets/images/i.jpg",
@@ -21,7 +21,7 @@ class _PaginaInicialtate extends State<Paginainicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Flutter GridView"),
+          title: const Text("Listado de Articulos"),
         ),
         body: GridView.custom(
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
